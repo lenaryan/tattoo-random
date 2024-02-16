@@ -1,2 +1,2 @@
 # tattoo-random
-генератор идей для тату
+tattoo design ideas generator
