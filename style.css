@@ -26,12 +26,8 @@ body {
     transition: opacity 0.3s ease-in-out;
 }
 
-.button:active {
+.button:hover {
     opacity: 0.8;
-}
-
-.button:focus {
-    outline-color: white;
 }
 
 .title {
@@ -47,5 +43,9 @@ body {
 
     .button {
         font-size: 20px;
+    }
+
+    .button:hover {
+        opacity: 1;
     }
 }
