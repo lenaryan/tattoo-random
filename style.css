@@ -26,16 +26,11 @@ body {
     transition: opacity 0.3s ease-in-out;
 }
 
-.button:hover {
+.button:active {
     opacity: 0.8;
 }
 
-.button:active {
-    opacity: 1;
-}
-
 .button:focus {
-    opacity: 1;
     outline-color: white;
 }
 
