@@ -1,0 +1,47 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #000;
+    font-family: 'Verdana';
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.button {
+    font-family: inherit;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 30px;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 25px;
+    }
+
+    .button {
+        font-size: 20px;
+    }
+}
